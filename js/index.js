@@ -39,16 +39,4 @@ $(function(){
 	},function(){
 		$('.switch img').attr('src','img/switch.png')
 	})
-	var contentop=$('.play').position().top;
-	console.log(contentop);
-	$(window).on('scroll',function(){
-		var scrolltop=$(document).scrollTop();
-		console.log(scrolltop);
-		if (scrolltop>=18) {
-			$('.play').css('position','static');
-			$('.play').css('float','left');
-		}else{
-			$('.play').css('position','fixed');
-		}
-	})
 })  

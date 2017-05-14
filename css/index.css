@@ -2,6 +2,8 @@ html{
 	font-size: 20px;
 }
 body{
+	width: 16.0rem;
+	/*overflow: hidden;*/
 	background:#3c4854;
 	height: 12.186rem;
 }
@@ -49,6 +51,7 @@ header h1{
 .banner{
 	padding-bottom: 0.772rem;
 	border-bottom: 1px solid #535c67;
+	overflow: hidden;
 }
 .banner .banner1{
 	/*width:41.772rem;*/
@@ -96,9 +99,9 @@ header h1{
 .banner .yuan a.active{
 	background:#fdcb31;
 }
-/*.hot{
+.hot{
 	height: 500px;
-}*/
+}
 .hot .hot1{
 	width: 3.072rem;
 	height: 0.861rem;
