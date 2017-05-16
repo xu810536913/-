@@ -7,6 +7,9 @@ body{
 	background:#3c4854;
 	height: 12.186rem;
 }
+a{
+		-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
 header{
 	width: 16.0rem;
 	height: 3.191rem;
@@ -229,8 +232,11 @@ header h1{
 .play .au .switch img{
 	width: 0.341rem;
 	height: 0.386rem;
-	margin-left: 0.297rem;
-	margin-top: 0.237rem;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	margin-top: -0.386rem;
+	margin-left: -0.155rem;
 	background-size: 100% 100%;
 }
 .play .au .add{

@@ -35,8 +35,10 @@ $(function(){
 	
 	}
 	$('.switch').toggle(function(){
-		$('.switch img').attr('src','img/switch1.png')
+		$('.switch img').attr('src','img/switch1.png');
+		$('.aud')[0].play();
 	},function(){
+		$('.aud')[0].pause();
 		$('.switch img').attr('src','img/switch.png')
 	})
 })  
